@@ -36,7 +36,7 @@
 				?>
 				<br>
 				Username: admin<br>
-				Password: 123456<br>
+				Password: P@ssw0rd<br>
 				For security, Delete the <b>install</b> directory inside system folder.
 			</p>
 		</div>

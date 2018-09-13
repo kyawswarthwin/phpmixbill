@@ -82,6 +82,11 @@
 				<a href="{$_url}logout"><i class="ion ion-power"></i> {$_L['Logout']}</a></a>
 			</li>
 		</ul>
+		<ul class="list-unstyled right-elems">
+			<li class="panel-heading">
+				<span style="color: white;">Powered By: <a href="https://www.facebook.com/09moviesstore/" target="_blank" style="color: white;">09 Movies Store</a> <span>
+			</li>
+		</ul>
 	</header>
 
 	<div class="main-container clearfix">
@@ -261,12 +266,6 @@
 							<li {if $_system_menu eq 'settings'}class="active"{/if}><a href="{$_url}settings/dbstatus">{$_L['Backup_Restore']}</a></li>
 							<li>&nbsp;</li>
 						</ul>
-					</li>
-					<li {if $_system_menu eq 'disquss'}class="active"{/if}>
-						<a href="{$_url}disquss">
-							<i class="ion ion-chatbubbles"></i>
-							<span class="text">Disquss</span>
-						</a>
 					</li>
 				{/if}
 				</ul>

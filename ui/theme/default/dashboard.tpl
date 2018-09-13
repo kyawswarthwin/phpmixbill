@@ -89,8 +89,8 @@
 										<thead>
 											<tr>
 												<th>{$_L['Plan_Name']}</th>
-												<th>unused</th>
-												<th>used</th>
+												<th>Unused</th>
+												<th>Used</th>
 											</tr>
 										</thead>
 										<tbody>
@@ -116,7 +116,7 @@
 									<table class="table">
 										<thead>
 											<tr>
-												<th>Id</th>
+												<th>ID</th>
 												<th>{$_L['Username']}</th>
 												<th>{$_L['Created_On']}</th>
 												<th>{$_L['Expires_On']}</th>
@@ -151,12 +151,6 @@
 										</li>
 									{/foreach}
 									</ul>
-								</div>
-							</div>
-							<div class="panel panel-default panel-hovered mb20 activities">
-								<div class="panel-heading">PHPMIXBILL</div>
-								<div class="panel-body">
-									{$_L['Welcome_Text_Admin']}
 								</div>
 							</div>
 						</div>
